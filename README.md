@@ -1,0 +1,2 @@
+# Comprehensive-Analysis-and-Dietary-Strategies-with-Tableau-A-College-Food-Choices-Case-Study
+This repository contains my project for Smart InternX titled "Food Choices Case Study: Comprehensive Analysis and Dietary Strategies with Tableau." It includes datasets, Tableau dashboards, visualizations, and documentation aimed at understanding college students' food choices and providing insights for healthier dietary strategies.
