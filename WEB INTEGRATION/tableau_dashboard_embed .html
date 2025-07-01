@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comprehensive Analysis and Dietary Strategies</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    nav { background: #f0f0f0; padding: 10px; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; font-weight: bold; color: #0077cc; }
+    nav a:hover { text-decoration: underline; }
+    .content { display: none; padding: 20px; }
+    .active { display: block; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#dashboard1">Dashboard 1</a>
+    <a href="#dashboard2">Dashboard 2</a>
+    <a href="#dashboard3">Dashboard 3</a>
+    <a href="#dashboard4">Dashboard 4</a>
+    <a href="#story">Story</a>
+  </nav>
+
+  <div id="home" class="content active">
+    <h2>Comprehensive Analysis and Dietary Strategies with Tableau: A College Food Choices Case Study</h2>
+    <p>"Comprehensive Analysis and Dietary Strategies with Tableau: A College Food Choices Case Study" is an innovative project aimed at revolutionizing how dietary data among college students is visualized and utilized to drive informed decision-making and enhance student health and academic performance. In today's educational environment, it's crucial to have access to comprehensive insights into dietary trends, nutritional habits, and health impacts to empower stakeholders with actionable information.</p>
+
+    <p>This project seeks to create a dynamic and intuitive platform using Tableau, where data from various aspects of student diets, exercise habits, and health perceptions can be transformed into interactive visualizations and insightful analytics. By leveraging Tableau's capabilities effectively, the "Enhancing Dietary Strategies" project aims to empower educational institutions with actionable insights, foster data-driven decision-making, and drive student well-being by facilitating a deeper understanding of dietary dynamics and promoting evidence-based nutritional strategies.</p>
+
+    <h3>Scenarios:</h3>
+
+    <h4>Scenario 1: Monitoring Nutritional Intake</h4>
+    <p>In a real-time scenario, imagine receiving an alert indicating a concerning trend in nutritional intake among students, such as a significant decrease in fruit and vegetable consumption. Using the College Food Choices data, we can quickly assess the extent and potential impact of this trend, identify contributing factors, and deploy immediate interventions to encourage healthier eating habits. Whether it’s through targeted awareness campaigns, adjustments in cafeteria menus, or personalized dietary advice, real-time analysis enables rapid decision-making and proactive measures to promote student health.</p>
+
+    <h4>Scenario 2: Addressing Dietary Deficiencies</h4>
+    <p>In the event of identifying widespread dietary deficiencies, such as low vitamin intake or high consumption of unhealthy snacks, real-time access to College Food Choices data enables swift response and management. University health services and nutritionists can utilize the dataset to gather crucial information about the deficiencies, including their prevalence, potential health impacts, and affected student demographics. By leveraging real-time analytics, they can coordinate health promotion efforts, allocate resources effectively, and implement educational programs to address the deficiencies and ensure the nutritional well-being of all students.</p>
+
+    <h4>Scenario 3: Predictive Analysis and Personalized Nutrition Plans</h4>
+    <p>Leveraging predictive analytics capabilities, College Food Choices empowers universities to anticipate and prevent potential health issues related to poor dietary habits. By analyzing historical data and identifying predictive indicators, health professionals can proactively address nutritional gaps, unhealthy eating patterns, and other risk factors that could lead to health problems. Real-time monitoring of dietary choices, meal consumption patterns, and nutritional intake enables timely interventions, personalized nutrition plans, and continuous support to encourage long-term healthy eating habits among students.</p>
+  </div>
+
+  <div id="about" class="content">
+    <h2>About</h2>
+    <p>"Comprehensive Analysis and Dietary Strategies with Tableau: A College Food Choices Case Study" is an innovative project that aims to transform how dietary data among college students is analyzed and used to improve health and academic outcomes. The project builds interactive visualizations of student diets, exercise habits, and health perceptions using Tableau. By harnessing real-time data, universities can monitor nutrition trends, respond to dietary deficiencies, and develop personalized nutrition plans. Ultimately, this empowers educational institutions to foster student well-being through evidence-based strategies and proactive interventions, driving healthier habits and better performance across campuses.</p>
+  </div>
+
+  <div id="dashboard1" class="content">
+    <h2>Dashboard 1</h2>
+    <iframe src="https://public.tableau.com/views/pavanidashboard1/Dashboard1?:showVizHome=no&:embed=true" width="100%" height="800" style="border:none;"></iframe>
+  </div>
+
+  <div id="dashboard2" class="content">
+    <h2>Dashboard 2</h2>
+    <iframe src="https://public.tableau.com/views/pavanidashboard2/Dashboard2?:showVizHome=no&:embed=true" width="100%" height="800" style="border:none;"></iframe>
+  </div>
+
+  <div id="dashboard3" class="content">
+    <h2>Dashboard 3</h2>
+    <iframe src="https://public.tableau.com/views/pavanidashboard3/Dashboard3?:showVizHome=no&:embed=true" width="100%" height="800" style="border:none;"></iframe>
+  </div>
+
+  <div id="dashboard4" class="content">
+    <h2>Dashboard 4</h2>
+    <iframe src="https://public.tableau.com/views/pavanidashboard4/Dashboard4?:showVizHome=no&:embed=true" width="100%" height="800" style="border:none;"></iframe>
+  </div>
+
+  <div id="story" class="content">
+    <h2>Story</h2>
+    <iframe src="https://public.tableau.com/views/pavanistory/Story1?:showVizHome=no&:embed=true" width="100%" height="800" style="border:none;"></iframe>
+  </div>
+
+  <script>
+    const links = document.querySelectorAll('nav a');
+    const sections = document.querySelectorAll('.content');
+
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        sections.forEach(sec => sec.classList.remove('active'));
+        document.querySelector(link.getAttribute('href')).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
