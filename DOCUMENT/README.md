@@ -13,6 +13,9 @@ The project uses Tableau for visualizations and integrates them into a web platf
 
 Tableau Storyboard https://public.tableau.com/views/pavanistory/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
+🌐 Live Application
+https://drive.google.com/file/d/1zxGckIqz2FmTa8b3UNnv9JqAIxM2_TUb/view?usp=sharing
+
 👥 Team ID : LTVIP2025TMID50199
 
     Team Members :
@@ -25,6 +28,5 @@ Tableau Storyboard https://public.tableau.com/views/pavanistory/Story1?:language
     
     Vamsi Krishna
 
-    🌐 Live Application
-https://drive.google.com/file/d/1zxGckIqz2FmTa8b3UNnv9JqAIxM2_TUb/view?usp=sharing
+   
 
