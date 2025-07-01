@@ -60,6 +60,9 @@ A complete walkthrough of the interactive dashboards, insights, and features.
 
 ▶ [Watch the Demo Video] https://drive.google.com/file/d/1W79_LkS61nyQAeZ0O1MzC3Ws1upp4GR-/view?usp=sharing
 
+🌐 Live Application
+https://drive.google.com/file/d/1zxGckIqz2FmTa8b3UNnv9JqAIxM2_TUb/view?usp=sharing
+
 🏁 Outcome & Impact
 This project empowers institutions to:
 
